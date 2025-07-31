@@ -1,0 +1,16 @@
+So at the hospital, I changed the resolution of the monitor and the display stopped working. Seems the resolution I picked wasn't supported by the monitor. 
+Without the display, how can I fix this?
+
+The easiest way was to;
+Boot the PC into safe mode.
+
+And open Device Manager;
+Windows Key + R 
+Type devmgmt.msc 
+
+Once the device manager is open. 
+You look for the display adapters. 
+The uninstall it, 
+Boot the PC back to normal mode. 
+It will take sometime to display, because windows will build a new display driver, a rollback driver. 
+
