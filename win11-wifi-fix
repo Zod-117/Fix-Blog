@@ -1,0 +1,10 @@
+Windows 11 unable to connect to a public WIFI. 
+
+
+
+                              			*Registry Editor*
+Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RasMan\PPP\EAP\13
+
+TlsVersion(DWORD 32-bit)
+
+Value data: FC0 [Hexadecimal]
